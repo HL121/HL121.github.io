@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>HAOXI LI's Website</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link href="styles.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <nav class="navbar">
+            <p>
+                <a class="m-2" href="index.html">About Me</a>
+                <a class="m-2" href="my-work.html">My Work</a>
+            </p>
+        </nav>
+        <section class="m-3">
+            <h1 style="text-align: center;"><em>My Work</em></h1>
+            <marquee class = "blinking-text" behavior="scroll" direction="left" style="display: inline-block;"><b>Welcome To My Work Page!</b></marquee>
+            <h2><strong>Reinforcement Learning Research</strong></h2>
+            <p>CS298 Directed Study in Computer Science</p>
+            <ul>
+                <li>Led a project focused on training AI agents (NPCs) in video games (Behaviors of a car on n by n grid in 2D), utilizing reinforcement learning algorithms such as Q-learning, Value Iteration, alongside game theory models and computer graphics technologies;</li>
+                <li>Designed and implemented innovative and advanced strategies for optimizing NPC behavior and enhancing environmental interactions using Python and Numpy;</li>
+                <li>Experimented various reward rules in Reinforcement Learning model to evaluate the actions of a car.</li>
+            </ul>
+            <h2><strong>Image Style Transfer</strong></h2>
+            <a  class="fw-bold" style="text-align: center;" href = "https://github.com/HL121/Style-Transfer/tree/main">GitHub Repo</a>
+            <div style="text-align: center;">
+                <img class = "picture_size" class = "mt-3" src = "image style transfer.png", alt="Image Style Transfer Process" width="450" height="170" >
+            </div>
+            <table class="table table-bordered table-striped text-center">
+                <tr>
+                    <th class = "th" >Model</th>
+                    <th class = "th" >Average CLIP Similarity</th>
+                    <th class = "th" >Average CLIP Directional Similarity</th>
+                    <th class = "th" >Kernel Inception Distance (KID)</th>
+                </tr>
+                <tr>
+                    <td class = "ths"><strong>Instruct Pix2Pix</strong></td>
+                    <td>0.813</td>
+                    <td>0.105</td>
+                    <td>0.0421</td>
+                </tr>
+                <tr>
+                    <td class = "ths"><strong>GAN2800.SD</strong></td>
+                    <td>0.846</td>
+                    <td>0.112</td>
+                    <td>0.0300</td>
+                </tr>
+            </table>
+            <ul>
+                <li>Finetuned a pretrained image editing model using PyTorch and TensorFlow, guided by text prompts to achieve style transfer on images;</li>
+                <li>Utilized the HuggingFace API to access and train large-scale transformer models, optimizing hyperparameters for enhanced performance</li>
+                <li>Employed evaluation metrics such as CLIP similarity, directional similarity, and visual inspection to assess the model’s effectiveness,</li>
+                <li>integrating tools like NumPy, and Matplotlib for comprehensive analysis.</li>
+            </ul>
+        </section>
+    </body>
+</html>
